@@ -92,4 +92,92 @@ enum RecommendationEngine {
         }
         return "\(String(format: "%.1f", m))x"
     }
+
+    // MARK: - Top Pick (Home screen)
+
+    /// A lightweight top-pick result for the home screen hero card.
+    struct TopPick: Identifiable {
+        let card: CreditCard
+        let multiplier: Double
+        let shortWhy: String          // 1-2 sentence reason
+        let category: TransactionCategory
+        let isRotatingBonus: Bool
+        var id: String { card.cardID }
+    }
+
+    /// Find the single best card across all categories for the user's wallet.
+    /// Picks the card + category combination with the highest multiplier.
+    /// If all cards are 1x everywhere, returns the first card with a "flat rate" note.
+    static func topPick(
+        userCards: [CreditCard],
+        rotatingCategories: [RotatingCategory]
+    ) -> TopPick? {
+        guard !userCards.isEmpty else { return nil }
+
+        var bestCard: CreditCard?
+        var bestMultiplier: Double = -1
+        var bestCategory: TransactionCategory?
+        var bestIsRotating = false
+
+        for card in userCards {
+            // Check rotating categories first (usually 5x)
+            for rotation in rotatingCategories where rotation.cardID == card.cardID && rotation.isCurrentQuarter {
+                for catId in rotation.categoryIds {
+                    if let cat = CategoryCatalog.find(catId), rotation.multiplier > bestMultiplier {
+                        bestMultiplier = rotation.multiplier
+                        bestCard = card
+                        bestCategory = cat
+                        bestIsRotating = true
+                    }
+                }
+            }
+
+            // Check static multipliers
+            for mult in card.multipliers {
+                if let cat = CategoryCatalog.find(mult.categoryId), mult.multiplier > bestMultiplier {
+                    bestMultiplier = mult.multiplier
+                    bestCard = card
+                    bestCategory = cat
+                    bestIsRotating = false
+                }
+            }
+        }
+
+        // If no bonus multiplier found, fall back to the first card at 1x
+        guard let card = bestCard, let category = bestCategory else {
+            let fallback = userCards[0]
+            return TopPick(
+                card: fallback,
+                multiplier: 1.0,
+                shortWhy: "No bonus categories active — use \(fallback.name) for everyday spend.",
+                category: CategoryCatalog.categories.last ?? TransactionCategory(id: "other", name: "Other", icon: "creditcard.fill", sfColor: "8E8E93"),
+                isRotatingBonus: false
+            )
+        }
+
+        return TopPick(
+            card: card,
+            multiplier: bestMultiplier,
+            shortWhy: shortWhy(card: card, multiplier: bestMultiplier, category: category, isRotating: bestIsRotating),
+            category: category,
+            isRotatingBonus: bestIsRotating
+        )
+    }
+
+    /// Generate a short, scannable "why" string (1-2 sentences max).
+    static func shortWhy(
+        card: CreditCard,
+        multiplier: Double,
+        category: TransactionCategory,
+        isRotating: Bool
+    ) -> String {
+        let multStr = formatMultiplier(multiplier)
+        if isRotating {
+            return "\(multStr) on \(category.name) — quarterly rotating bonus active."
+        }
+        if multiplier <= 1.0 {
+            return "Flat 1x — use for everyday spend."
+        }
+        return "\(multStr) on \(category.name) — your best bonus category."
+    }
 }
