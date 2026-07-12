@@ -36,3 +36,4 @@ Pods/
 *.xccheckout
 objc_dep/
 *.xcuserstate
+Info.plist
