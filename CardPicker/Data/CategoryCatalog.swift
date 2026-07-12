@@ -14,6 +14,8 @@ enum CategoryCatalog {
         TransactionCategory(id: "entertainment",   name: "Entertainment",    icon: "theatermasks.fill",    sfColor: "FF2D55"),
         TransactionCategory(id: "utilities",       name: "Utilities",        icon: "bolt.fill",            sfColor: "FFCC00"),
         TransactionCategory(id: "phone",           name: "Phone",            icon: "phone.fill",          sfColor: "30D158"),
+        TransactionCategory(id: "amazon",          name: "Amazon",           icon: "shippingbox.fill",    sfColor: "FF9900"),
+        TransactionCategory(id: "apple",           name: "Apple",            icon: "app.fill",            sfColor: "8E8E93"),
         TransactionCategory(id: "other",           name: "Other",            icon: "creditcard.fill",      sfColor: "8E8E93"),
     ]
 

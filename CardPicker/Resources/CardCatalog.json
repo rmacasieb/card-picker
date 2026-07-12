@@ -7,13 +7,41 @@
     "network": "Visa Infinite",
     "annualFee": 550,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x points on dining (restaurants, takeout, delivery)" },
-      { "categoryId": "travel", "multiplier": 10.0, "note": "10x on Chase Travel portal, 3x on other travel (hotels, car rentals, flights)" },
-      { "categoryId": "streaming", "multiplier": 3.0, "note": "3x on select streaming services" },
-      { "categoryId": "online_shopping", "multiplier": 3.0, "note": "3x on select online grocery (promotional)" },
-      { "categoryId": "transit", "multiplier": 3.0, "note": "3x on transit (parking, tolls, trains, buses)" },
-      { "categoryId": "drugstores", "multiplier": 3.0, "note": "3x on select drugstores" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x points on dining (restaurants, takeout, delivery)"
+      },
+      {
+        "categoryId": "travel",
+        "multiplier": 10.0,
+        "note": "10x on Chase Travel portal, 3x on other travel (hotels, car rentals, flights)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 3.0,
+        "note": "3x on select streaming services"
+      },
+      {
+        "categoryId": "online_shopping",
+        "multiplier": 3.0,
+        "note": "3x on select online grocery (promotional)"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 3.0,
+        "note": "3x on transit (parking, tolls, trains, buses)"
+      },
+      {
+        "categoryId": "drugstores",
+        "multiplier": 3.0,
+        "note": "3x on select drugstores"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Premium travel card with 3x on dining, travel, streaming, and transit. $300 annual travel credit."
@@ -26,13 +54,41 @@
     "network": "Visa Signature",
     "annualFee": 95,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x points on dining (restaurants, takeout, delivery)" },
-      { "categoryId": "streaming", "multiplier": 3.0, "note": "3x on select streaming services" },
-      { "categoryId": "online_shopping", "multiplier": 3.0, "note": "3x on select online grocery (promotional)" },
-      { "categoryId": "travel", "multiplier": 2.0, "note": "5x on Chase Travel portal, 2x on other travel" },
-      { "categoryId": "transit", "multiplier": 2.0, "note": "2x on transit" },
-      { "categoryId": "drugstores", "multiplier": 2.0, "note": "2x on select drugstores" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x points on dining (restaurants, takeout, delivery)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 3.0,
+        "note": "3x on select streaming services"
+      },
+      {
+        "categoryId": "online_shopping",
+        "multiplier": 3.0,
+        "note": "3x on select online grocery (promotional)"
+      },
+      {
+        "categoryId": "travel",
+        "multiplier": 2.0,
+        "note": "5x on Chase Travel portal, 2x on other travel"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 2.0,
+        "note": "2x on transit"
+      },
+      {
+        "categoryId": "drugstores",
+        "multiplier": 2.0,
+        "note": "2x on select drugstores"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Mid-tier travel card with 3x on dining and streaming, 2x on travel. Great value at $95/yr."
@@ -45,11 +101,31 @@
     "network": "Mastercard",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x on dining (restaurants, takeout)" },
-      { "categoryId": "drugstores", "multiplier": 3.0, "note": "3x on drugstores (pharmacies)" },
-      { "categoryId": "groceries", "multiplier": 5.0, "note": "5x on rotating quarterly categories (up to $1,500/qtr, then 1x)" },
-      { "categoryId": "gas", "multiplier": 5.0, "note": "5x on rotating quarterly categories when active" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x on dining (restaurants, takeout)"
+      },
+      {
+        "categoryId": "drugstores",
+        "multiplier": 3.0,
+        "note": "3x on drugstores (pharmacies)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 5.0,
+        "note": "5x on rotating quarterly categories (up to $1,500/qtr, then 1x)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 5.0,
+        "note": "5x on rotating quarterly categories when active"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": true,
     "description": "No-fee card with 5x rotating quarterly categories, 3x on dining and drugstores year-round."
@@ -62,10 +138,26 @@
     "network": "Visa",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x on dining" },
-      { "categoryId": "drugstores", "multiplier": 3.0, "note": "3x on drugstores" },
-      { "categoryId": "groceries", "multiplier": 1.5, "note": "1.5x on all purchases including groceries" },
-      { "categoryId": "other", "multiplier": 1.5, "note": "1.5x flat rate on everything" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x on dining"
+      },
+      {
+        "categoryId": "drugstores",
+        "multiplier": 3.0,
+        "note": "3x on drugstores"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 1.5,
+        "note": "1.5x on all purchases including groceries"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.5,
+        "note": "1.5x flat rate on everything"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "No-fee flat-rate card: 1.5x on everything, 3x on dining and drugstores."
@@ -78,9 +170,21 @@
     "network": "Amex",
     "annualFee": 695,
     "multipliers": [
-      { "categoryId": "travel", "multiplier": 5.0, "note": "5x on flights booked direct with airlines, 5x on prepaid hotels via Amex Travel" },
-      { "categoryId": "dining", "multiplier": 1.0, "note": "1x on dining (no bonus)" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "travel",
+        "multiplier": 5.0,
+        "note": "5x on flights booked direct with airlines, 5x on prepaid hotels via Amex Travel"
+      },
+      {
+        "categoryId": "dining",
+        "multiplier": 1.0,
+        "note": "1x on dining (no bonus)"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Ultra-premium travel card with 5x on flights and hotels. $695/yr but rich travel credits."
@@ -93,9 +197,21 @@
     "network": "Amex",
     "annualFee": 325,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 4.0, "note": "4x on dining at restaurants worldwide" },
-      { "categoryId": "groceries", "multiplier": 4.0, "note": "4x at U.S. supermarkets (up to $25,000/yr, then 1x)" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 4.0,
+        "note": "4x on dining at restaurants worldwide"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 4.0,
+        "note": "4x at U.S. supermarkets (up to $25,000/yr, then 1x)"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Best dining card: 4x at restaurants and 4x at U.S. supermarkets. $325/yr with dining credits."
@@ -108,11 +224,31 @@
     "network": "Amex",
     "annualFee": 95,
     "multipliers": [
-      { "categoryId": "groceries", "multiplier": 6.0, "note": "6% cashback at U.S. supermarkets (up to $6,000/yr, then 1%)" },
-      { "categoryId": "streaming", "multiplier": 6.0, "note": "6% on select U.S. streaming subscriptions" },
-      { "categoryId": "transit", "multiplier": 3.0, "note": "3% on transit (gas, parking, tolls, rideshare)" },
-      { "categoryId": "gas", "multiplier": 3.0, "note": "3% on gas at U.S. stations" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1% on everything else" }
+      {
+        "categoryId": "groceries",
+        "multiplier": 6.0,
+        "note": "6% cashback at U.S. supermarkets (up to $6,000/yr, then 1%)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 6.0,
+        "note": "6% on select U.S. streaming subscriptions"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 3.0,
+        "note": "3% on transit (gas, parking, tolls, rideshare)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 3.0,
+        "note": "3% on gas at U.S. stations"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1% on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Best grocery card: 6% at supermarkets, 6% on streaming, 3% on gas and transit. $95/yr."
@@ -125,10 +261,26 @@
     "network": "Amex",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "groceries", "multiplier": 3.0, "note": "3% cashback at U.S. supermarkets (up to $6,000/yr, then 1%)" },
-      { "categoryId": "gas", "multiplier": 2.0, "note": "2% on gas at U.S. stations" },
-      { "categoryId": "online_shopping", "multiplier": 3.0, "note": "3% on select online retail (up to $6,000/yr, then 1%)" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1% on everything else" }
+      {
+        "categoryId": "groceries",
+        "multiplier": 3.0,
+        "note": "3% cashback at U.S. supermarkets (up to $6,000/yr, then 1%)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 2.0,
+        "note": "2% on gas at U.S. stations"
+      },
+      {
+        "categoryId": "online_shopping",
+        "multiplier": 3.0,
+        "note": "3% on select online retail (up to $6,000/yr, then 1%)"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1% on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "No-fee grocery card: 3% at supermarkets, 2% on gas, 3% on online retail."
@@ -141,9 +293,21 @@
     "network": "Visa Infinite",
     "annualFee": 395,
     "multipliers": [
-      { "categoryId": "travel", "multiplier": 10.0, "note": "10x on Capital One Travel portal, 2x on other travel" },
-      { "categoryId": "dining", "multiplier": 2.0, "note": "2x on dining" },
-      { "categoryId": "other", "multiplier": 2.0, "note": "2x flat rate on all other purchases" }
+      {
+        "categoryId": "travel",
+        "multiplier": 10.0,
+        "note": "10x on Capital One Travel portal, 2x on other travel"
+      },
+      {
+        "categoryId": "dining",
+        "multiplier": 2.0,
+        "note": "2x on dining"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 2.0,
+        "note": "2x flat rate on all other purchases"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Premium travel card: 2x on everything, 10x on travel portal. $300 travel credit offsets most of $395 fee."
@@ -156,11 +320,31 @@
     "network": "Mastercard",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x on dining (restaurants, takeout, delivery)" },
-      { "categoryId": "groceries", "multiplier": 3.0, "note": "3x on groceries (supermarkets excluding superstores like Walmart/Target)" },
-      { "categoryId": "streaming", "multiplier": 3.0, "note": "3x on select streaming services" },
-      { "categoryId": "entertainment", "multiplier": 8.0, "note": "8x on tickets via Vivid Seats" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x on dining (restaurants, takeout, delivery)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 3.0,
+        "note": "3x on groceries (supermarkets excluding superstores like Walmart/Target)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 3.0,
+        "note": "3x on select streaming services"
+      },
+      {
+        "categoryId": "entertainment",
+        "multiplier": 8.0,
+        "note": "8x on tickets via Vivid Seats"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "No-fee dining/entertainment card: 3x on dining, groceries, and streaming. 8x on Vivid Seats."
@@ -173,11 +357,31 @@
     "network": "Mastercard",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 2.0, "note": "2% cashback on all purchases (1% when you buy + 1% when you pay)" },
-      { "categoryId": "groceries", "multiplier": 2.0, "note": "2% cashback on all purchases including groceries" },
-      { "categoryId": "gas", "multiplier": 2.0, "note": "2% cashback on all purchases including gas" },
-      { "categoryId": "travel", "multiplier": 2.0, "note": "2% cashback on all purchases including travel" },
-      { "categoryId": "other", "multiplier": 2.0, "note": "2% cashback on everything (1% buy + 1% pay)" }
+      {
+        "categoryId": "dining",
+        "multiplier": 2.0,
+        "note": "2% cashback on all purchases (1% when you buy + 1% when you pay)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 2.0,
+        "note": "2% cashback on all purchases including groceries"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 2.0,
+        "note": "2% cashback on all purchases including gas"
+      },
+      {
+        "categoryId": "travel",
+        "multiplier": 2.0,
+        "note": "2% cashback on all purchases including travel"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 2.0,
+        "note": "2% cashback on everything (1% buy + 1% pay)"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Flat 2% cashback on everything (1% when you buy, 1% when you pay). No annual fee."
@@ -190,10 +394,26 @@
     "network": "Discover",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 5.0, "note": "5x on rotating quarterly categories (up to $1,500/qtr, then 1x)" },
-      { "categoryId": "groceries", "multiplier": 5.0, "note": "5x when groceries are a rotating category" },
-      { "categoryId": "gas", "multiplier": 5.0, "note": "5x when gas is a rotating category" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 5.0,
+        "note": "5x on rotating quarterly categories (up to $1,500/qtr, then 1x)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 5.0,
+        "note": "5x when groceries are a rotating category"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 5.0,
+        "note": "5x when gas is a rotating category"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": true,
     "description": "No-fee rotating 5x categories, plus Discover Cashback Match in first year (doubles all cashback)."
@@ -206,13 +426,41 @@
     "network": "Visa Signature",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3% on chosen 2% category if set to dining (up to $2,500/qtr, then 1%)" },
-      { "categoryId": "groceries", "multiplier": 3.0, "note": "3% if groceries is your chosen category" },
-      { "categoryId": "gas", "multiplier": 3.0, "note": "3% if gas is your chosen category" },
-      { "categoryId": "streaming", "multiplier": 3.0, "note": "3% if streaming is your chosen category" },
-      { "categoryId": "drugstores", "multiplier": 3.0, "note": "3% if drugstores is your chosen category" },
-      { "categoryId": "transit", "multiplier": 3.0, "note": "3% if transit is your chosen category" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1% on everything else. Up to 3% online shopping if chosen." }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3% on chosen 2% category if set to dining (up to $2,500/qtr, then 1%)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 3.0,
+        "note": "3% if groceries is your chosen category"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 3.0,
+        "note": "3% if gas is your chosen category"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 3.0,
+        "note": "3% if streaming is your chosen category"
+      },
+      {
+        "categoryId": "drugstores",
+        "multiplier": 3.0,
+        "note": "3% if drugstores is your chosen category"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 3.0,
+        "note": "3% if transit is your chosen category"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1% on everything else. Up to 3% online shopping if chosen."
+      }
     ],
     "hasRotatingCategories": false,
     "description": "Choose one 3% category each month (dining, groceries, gas, streaming, drugstores, transit, online shopping). $0 fee."
@@ -225,13 +473,41 @@
     "network": "Visa Signature",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 3.0, "note": "3x on dining (restaurants, takeout, delivery)" },
-      { "categoryId": "travel", "multiplier": 3.0, "note": "3x on travel (flights, hotels, car rentals)" },
-      { "categoryId": "transit", "multiplier": 3.0, "note": "3x on transit (gas, tolls, parking, transit)" },
-      { "categoryId": "streaming", "multiplier": 3.0, "note": "3x on select streaming" },
-      { "categoryId": "phone", "multiplier": 3.0, "note": "3x on phone plans (up to $1,500/qtr, then 1x)" },
-      { "categoryId": "gas", "multiplier": 3.0, "note": "3x on gas" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 3.0,
+        "note": "3x on dining (restaurants, takeout, delivery)"
+      },
+      {
+        "categoryId": "travel",
+        "multiplier": 3.0,
+        "note": "3x on travel (flights, hotels, car rentals)"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 3.0,
+        "note": "3x on transit (gas, tolls, parking, transit)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 3.0,
+        "note": "3x on select streaming"
+      },
+      {
+        "categoryId": "phone",
+        "multiplier": 3.0,
+        "note": "3x on phone plans (up to $1,500/qtr, then 1x)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 3.0,
+        "note": "3x on gas"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "No-fee card with 3x on 6 categories: dining, travel, transit, streaming, phone, gas."
@@ -244,14 +520,144 @@
     "network": "Visa Infinite",
     "annualFee": 0,
     "multipliers": [
-      { "categoryId": "dining", "multiplier": 4.0, "note": "4x on dining (restaurants, takeout, delivery)" },
-      { "categoryId": "streaming", "multiplier": 2.0, "note": "2x on streaming services" },
-      { "categoryId": "groceries", "multiplier": 2.0, "note": "2x on groceries (supermarkets)" },
-      { "categoryId": "gas", "multiplier": 2.0, "note": "2x on gas" },
-      { "categoryId": "transit", "multiplier": 2.0, "note": "2x on transit" },
-      { "categoryId": "other", "multiplier": 1.0, "note": "1x on everything else" }
+      {
+        "categoryId": "dining",
+        "multiplier": 4.0,
+        "note": "4x on dining (restaurants, takeout, delivery)"
+      },
+      {
+        "categoryId": "streaming",
+        "multiplier": 2.0,
+        "note": "2x on streaming services"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 2.0,
+        "note": "2x on groceries (supermarkets)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 2.0,
+        "note": "2x on gas"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 2.0,
+        "note": "2x on transit"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x on everything else"
+      }
     ],
     "hasRotatingCategories": false,
     "description": "No-fee dining powerhouse: 4x on dining, 2x on groceries, gas, streaming, transit."
+  },
+  {
+    "cardID": "chase-united-club-infinite",
+    "name": "United Club Infinite",
+    "issuer": "Chase",
+    "colorHex": "1E2A4A",
+    "network": "Visa Infinite",
+    "annualFee": 695,
+    "multipliers": [
+      {
+        "categoryId": "travel",
+        "multiplier": 4.0,
+        "note": "4x miles on United purchases (flights, in-flight food/Wi-Fi); 9x total on United flights with MileagePlus bonus"
+      },
+      {
+        "categoryId": "dining",
+        "multiplier": 2.0,
+        "note": "2x miles on dining including eligible delivery services"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1x mile on all other purchases"
+      }
+    ],
+    "hasRotatingCategories": false,
+    "description": "Premium United card with United Club membership ($750 value), 4x on United purchases, 2x on dining and travel. $695/yr with $675+ in annual credits."
+  },
+  {
+    "cardID": "amazon-prime-visa-signature",
+    "name": "Amazon Prime Visa Signature",
+    "issuer": "Chase",
+    "colorHex": "232F3E",
+    "network": "Visa Signature",
+    "annualFee": 0,
+    "multipliers": [
+      {
+        "categoryId": "amazon",
+        "multiplier": 5.0,
+        "note": "5% back at Amazon.com, Amazon Fresh, Whole Foods Market, and Chase Travel (requires Prime membership)"
+      },
+      {
+        "categoryId": "dining",
+        "multiplier": 2.0,
+        "note": "2% back at restaurants"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 2.0,
+        "note": "2% back at gas stations"
+      },
+      {
+        "categoryId": "transit",
+        "multiplier": 2.0,
+        "note": "2% back on local transit and commuting (including rideshare)"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 1.0,
+        "note": "1% back on all other purchases"
+      }
+    ],
+    "hasRotatingCategories": false,
+    "description": "No-fee card for Amazon Prime members: 5% back at Amazon/Whole Foods, 2% on dining, gas, and transit. Requires Prime membership."
+  },
+  {
+    "cardID": "apple-card",
+    "name": "Apple Card",
+    "issuer": "Goldman Sachs",
+    "colorHex": "F5F5F7",
+    "network": "Mastercard",
+    "annualFee": 0,
+    "multipliers": [
+      {
+        "categoryId": "apple",
+        "multiplier": 3.0,
+        "note": "3% Daily Cash back on all Apple purchases (Apple Store, apple.com, App Store, Apple Music, Apple TV+, in-app purchases)"
+      },
+      {
+        "categoryId": "dining",
+        "multiplier": 2.0,
+        "note": "2% Daily Cash back on all Apple Pay purchases (including dining)"
+      },
+      {
+        "categoryId": "groceries",
+        "multiplier": 2.0,
+        "note": "2% Daily Cash back on Apple Pay purchases (including groceries)"
+      },
+      {
+        "categoryId": "gas",
+        "multiplier": 2.0,
+        "note": "2% Daily Cash back on Apple Pay purchases (including gas)"
+      },
+      {
+        "categoryId": "travel",
+        "multiplier": 2.0,
+        "note": "2% Daily Cash back on Apple Pay purchases (including travel)"
+      },
+      {
+        "categoryId": "other",
+        "multiplier": 2.0,
+        "note": "2% Daily Cash back when using Apple Pay everywhere; 1% when using the physical titanium card"
+      }
+    ],
+    "hasRotatingCategories": false,
+    "description": "No-fee card with 3% Daily Cash on Apple purchases, 2% on all Apple Pay transactions, 1% on physical card purchases. No fees of any kind."
   }
 ]

@@ -15,7 +15,7 @@ Card Picker is an iOS app that tells you which credit card to use for a given tr
 ## Features
 
 - **Pre-built card catalog** with 15 popular credit cards and their real multipliers
-- **12 transaction categories** with SF Symbol icons and accent colors
+- **14 transaction categories** with SF Symbol icons and accent colors
 - **Recommendation engine** that ranks your cards by best multiplier for a category
 - **Rotating 5x categories** for Chase Freedom Flex and Discover It, loaded from embedded JSON
 - **Quarterly awareness** — shows active rotating bonuses with "last updated" date
