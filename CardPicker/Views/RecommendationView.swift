@@ -208,7 +208,7 @@ struct P1CardView: View {
 
             VStack(alignment: .trailing, spacing: 2) {
                 Text(RecommendationEngine.formatMultiplier(recommendation.multiplier))
-                    .font(.title3.weight(.bold, design: .rounded))
+                    .font(.system(size: 20, weight: .bold, design: .rounded))
                     .foregroundStyle(accentColor)
                 Text("P\(recommendation.rank)")
                     .font(.caption2.weight(.semibold))
