@@ -35,3 +35,4 @@ Pods/
 !default.perspectivev3
 *.xccheckout
 objc_dep/
+*.xcuserstate
