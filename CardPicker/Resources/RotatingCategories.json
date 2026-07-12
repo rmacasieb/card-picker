@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-07-01T00:00:00Z",
+  "rotations": [
+    {
+      "id": "freedom-flex-2026-q3",
+      "cardID": "chase-freedom-flex",
+      "year": 2026,
+      "quarter": 3,
+      "categoryIds": ["groceries", "gas"],
+      "multiplier": 5.0,
+      "note": "5x on Groceries and Gas (Jul-Sep 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "freedom-flex-2026-q4",
+      "cardID": "chase-freedom-flex",
+      "year": 2026,
+      "quarter": 4,
+      "categoryIds": ["dining", "online_shopping"],
+      "multiplier": 5.0,
+      "note": "5x on Dining and Select Online Shopping (Oct-Dec 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "freedom-flex-2026-q1",
+      "cardID": "chase-freedom-flex",
+      "year": 2026,
+      "quarter": 1,
+      "categoryIds": ["travel", "streaming"],
+      "multiplier": 5.0,
+      "note": "5x on Travel and Streaming (Jan-Mar 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "freedom-flex-2026-q2",
+      "cardID": "chase-freedom-flex",
+      "year": 2026,
+      "quarter": 2,
+      "categoryIds": ["drugstores", "groceries"],
+      "multiplier": 5.0,
+      "note": "5x on Drugstores and Groceries (Apr-Jun 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "discover-it-2026-q3",
+      "cardID": "discover-it",
+      "year": 2026,
+      "quarter": 3,
+      "categoryIds": ["dining", "gas"],
+      "multiplier": 5.0,
+      "note": "5x on Restaurants and Gas (Jul-Sep 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "discover-it-2026-q4",
+      "cardID": "discover-it",
+      "year": 2026,
+      "quarter": 4,
+      "categoryIds": ["groceries", "online_shopping"],
+      "multiplier": 5.0,
+      "note": "5x on Groceries and Amazon/Target (Oct-Dec 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "discover-it-2026-q1",
+      "cardID": "discover-it",
+      "year": 2026,
+      "quarter": 1,
+      "categoryIds": ["groceries", "drugstores"],
+      "multiplier": 5.0,
+      "note": "5x on Groceries and Drugstores (Jan-Mar 2026, up to $1,500/quarter)"
+    },
+    {
+      "id": "discover-it-2026-q2",
+      "cardID": "discover-it",
+      "year": 2026,
+      "quarter": 2,
+      "categoryIds": ["dining", "entertainment"],
+      "multiplier": 5.0,
+      "note": "5x on Restaurants and Entertainment (Apr-Jun 2026, up to $1,500/quarter)"
+    }
+  ]
+}
